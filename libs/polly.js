@@ -7,8 +7,8 @@ const Fs = require('fs')
 //Read more at http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html
 var Polly = new AWS.Polly({
     region: 'us-east-1',
-    accessKeyId: 'AKIAJBZM466KSJ5YO3VQ',
-    secretAccessKey: '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'
+    accessKeyId: '',
+    secretAccessKey: ''
 });
 
 var getPlayer = function() {
